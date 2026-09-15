@@ -8,7 +8,7 @@
 <hr>
 </p>
 
-<h2>📂 Folder Structure</h2>
+<h2> > 📂 Folder Structure</h2>
 
 ```text
 Folder_Name/
@@ -19,4 +19,3 @@ Folder_Name/
 └── proses.php
 ```
 
-<hr>
