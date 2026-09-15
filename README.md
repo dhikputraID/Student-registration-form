@@ -1,5 +1,5 @@
+<!-- Header -->
 <h1>📥 Simple student registration system</h1>
-
 <p>This student registration system was created to practice PHP & MySQL languages.</p>
 
 ![Laragon](https://img.shields.io/badge/Laragon-Local_Server-0B2343.svg)
@@ -13,6 +13,14 @@
 <hr>
 </p>
 
+<!-- Content -->
+<p>
+  <h2> > 💻 Tools</h2>
+  
+  * Visual Studio Code
+  * Laragon
+
+</p>
 <h2> > 📂 Folder Structure</h2>
 
 ```text
@@ -24,3 +32,4 @@ Folder_Name/
 └── proses.php
 ```
 
+<!-- Footer-->
