@@ -10,8 +10,9 @@
 <p>
   <img width="75" height="75" alt="PHP Photo" src="https://github.com/dhikputraID/php-mysql-pratice/blob/main/assets/img/php_dark.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img width="75" height="75" alt="MySQL Photo" src="https://github.com/dhikputraID/php-mysql-pratice/blob/main/assets/img/mysql-wordmark-dark.svg">
-<hr>
 </p>
+
+---
 
 <!-- Content -->
 <p>
@@ -33,3 +34,12 @@ Folder_Name/
 ```
 
 <!-- Footer-->
+
+---
+
+<h2> > ⚖️ License</h2>
+<p>
+  © CopyRight 2026 Dhikputra
+</p>
+
+---
