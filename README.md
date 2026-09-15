@@ -2,8 +2,9 @@
 
 <p>This student registration system was created to practice PHP & MySQL languages.</p>
 
-![Local_Server_Laragon](https://img.shields.io/badge/Local_Server-Laragon-0E83CD.svg?style=flat-square&logo=Laragon)
-![Extension_GoogleChrome](https://img.shields.io/badge/Extension-Google_Chrome-0E83CD.svg?style=flat-square&logo=GoogleChrome)
+![Local_Server_Laragon](https://img.shields.io/badge/Laragon-Local_Server-0B2343.svg?style=flat-square&logo=Laragon)
+![Extension_GoogleChrome](https://img.shields.io/badge/Chrome-Extension-0B2343.svg?style=flat-square&logo=GoogleChrome)
+![Extension_GoogleChrome](https://img.shields.io/badge/PHP-0B2343.svg?style=flat-square&logo=PHP)
 
 
 <p>
