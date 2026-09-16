@@ -1,5 +1,5 @@
 <!-- Header -->
-<h1>📥 Simple student registration system</h1>
+<h1>📥 Simple student registration system 1.0</h1>
 <p>This student registration system was created to practice PHP & MySQL languages.</p>
 
 ![Laragon](https://img.shields.io/badge/Laragon-Local_Server-0B2343.svg)
