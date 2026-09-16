@@ -22,17 +22,19 @@
   * Laragon
 
 </p>
-<h2> > 📂 Folder Structure</h2>
+<p>
+  <h2> > 📂 Folder Structure</h2>
+  
+  ```text
+  Folder_Name/
+  ├── assets/
+  ├── php/
+  ├── koneksi.php
+  ├── login.php
+  └── proses.php
+  ```
 
-```text
-Folder_Name/
-├── assets/
-├── php/
-├── koneksi.php
-├── login.php
-└── proses.php
-```
-
+</p>
 <!-- Footer-->
 
 ---
