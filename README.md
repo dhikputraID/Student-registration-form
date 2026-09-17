@@ -41,19 +41,15 @@
 <!-- Features -->
 
 <div>
-  <h2> > 📑 Features </h2>
+  <h2> > 📑 Features </h2> 
   
   ## > -- Version 1.0.0
   * Database for storing student data
   * Connection to connect the form to the database
   * Simple student registration website form display 
   ## > -- Version 1.1.0
-  *
-  *
-  *
-  *
-  *
-
+  * Adding a password to the student registration form
+  * Login and logout system for students
 </div>
 
 <!-- Folder structure -->
