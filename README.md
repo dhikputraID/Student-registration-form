@@ -1,6 +1,7 @@
 <!-- Header -->
 <h1>📥 Simple student registration system 1.0</h1>
-<p>This student registration system was created to practice PHP & MySQL languages, this registration system allows to save data of each student who has filled out the registration form, this repository was created for learning purposes.</p>
+<p>This Student Registration System was created as a learning project to practice PHP and MySQL, it allows users to submit and store student registration data through a simple registration form.
+This repository is intended for educational purposes and serves as a hands-on project for learning how PHP and MySQL work together to build a basic web application.</p>
 
 ![Laragon](https://img.shields.io/badge/Laragon-Local_Server-0B2343.svg)
 ![Chrome](https://img.shields.io/badge/Chrome-Extension-0B2343.svg)
@@ -22,6 +23,11 @@
   * Laragon
 
 </p>
+
+<section>
+  
+</section>
+
 <p>
   <h2> > 📂 Folder Structure</h2>
   
