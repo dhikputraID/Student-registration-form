@@ -12,10 +12,14 @@
   </p>
 </div>
 
-![Laragon](https://img.shields.io/badge/Laragon-Local_Server-0B2343.svg)
-![Chrome](https://img.shields.io/badge/Chrome-Extension-0B2343.svg)
-![Php](https://img.shields.io/badge/Php-0B2343.svg)
-![MySQL](https://img.shields.io/badge/MySQL-0B2343.svg)
+<div>
+  
+  ![Laragon](https://img.shields.io/badge/Laragon-Local_Server-0B2343.svg)
+  ![Chrome](https://img.shields.io/badge/Chrome-Extension-0B2343.svg)
+  ![Php](https://img.shields.io/badge/Php-0B2343.svg)
+  ![MySQL](https://img.shields.io/badge/MySQL-0B2343.svg)
+  
+</div>
 
 <div>
   <img width="75" height="75" alt="PHP Photo" src="https://github.com/dhikputraID/php-mysql-pratice/blob/main/assets/img/php_dark.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -39,10 +43,11 @@
 <div>
   <h2> > 📑 Features </h2>
   
-  *
-  *
-  *
-  *
+  ## > -- Version 1.0.0
+  * Database for storing student data
+  * Connection to connect the form to the database
+  * Simple student registration website form display 
+  ## > -- Version 1.1.0
   *
   *
   *
