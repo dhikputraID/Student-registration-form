@@ -56,7 +56,7 @@
 
 <div>
   <h2> > 📂 Folder Structure</h2>
-  
+
   ```Folder
   Folder_Name/
   ├── assets/
@@ -65,6 +65,19 @@
   ├── login.php
   └── proses.php
   ```
+</div>
+
+<!-- Installation -->
+
+<div>
+  <h2>📦 Installation</h2>
+  <h3>MySQL</h3>
+
+  1. Open Laragon 
+  ```Installation
+  * Start all
+  ```
+  
 </div>
 
 <!-- Footer section -->
