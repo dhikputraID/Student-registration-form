@@ -71,11 +71,11 @@
 
 <div>
   <h2>📦 Installation</h2>
-  <h3>MySQL</h3>
+  <h3> > -- MySQL</h3>
 
-  1. Open Laragon 
+  1. Activate mysql
   ```Installation
-  * Start all
+  - Start all
   ```
   
 </div>
