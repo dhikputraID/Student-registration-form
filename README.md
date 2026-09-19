@@ -58,6 +58,16 @@
   <h2> > 📂 Folder Structure</h2>
 
   ```Folder
+  Windows (C:)/
+  ├── laragon/
+  ├── www/
+  ├── project_name/
+  ├── assets/
+  ├── folder_name/
+  ├── koneksi.php
+  ├── login.php
+  └── proses.php
+
   Folder_Name/
   ├── assets/
   ├── php/
