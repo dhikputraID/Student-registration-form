@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulir Pendaftaran Siswa</title>
 </head>
 <body>
@@ -11,17 +11,17 @@
         <table>
             <tr>
                 <td>Nama Lengkap</td>
-                <td><input type="text" name="nsms" id="nama" placeholder="masukan nama" required></td>
+                <td><input type="text" name="nama" id="nama" placeholder="masukkan nama" required></td>
             </tr>
             <tr>
                 <td>Email</td>
-                <td><input type="text" name="email" id="email" placeholder="masukan alamat email" required></td>
+                <td><input type="email" name="email" id="email" placeholder="masukkan alamat email" required></td>
             </tr>
             <tr>
                 <td>Jurusan</td>
                 <td>
-                    <select name="jurusan">
-                        <option value="rekayasa perangkat lunak">Rekayasa Perangkat Lunak</option>
+                    <select name="jurusan" required>
+                        <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
                         <option value="Akuntansi">Akuntansi</option>
                         <option value="Teknik Sepeda Motor"> Teknik Sepeda Motor</option>
                     </select>
