@@ -77,6 +77,23 @@
   ```Installation
   - Click "Start all"
   ```
+
+  2. Open terminal in Laragon or CMD
+  ```Installation
+  > -- In Laragon
+
+  - Click "Terminal"
+  - Type "mysql -uroot" or "mysql -uroot -p" in the terminal
+  - Then type the source code according to the "db_rpl.mysql"
+  
+  > -- In CMD
+  - Press Windows + R
+  - Type CMD
+  - Then type cd
+  - Type "mysql -uroot" or "mysql -uroot -p" in the CMD
+  - Then type the source code according to the "db_rpl.mysql"
+  ```
+
 </div>
 
 <!-- Footer section -->
