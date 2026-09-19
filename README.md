@@ -73,11 +73,10 @@
   <h2>📦 Installation</h2>
   <h3> > -- MySQL</h3>
 
-  1. Activate mysql
+  1. Enable MySQL in Laragon 
   ```Installation
-  - Start all
+  - Click "Start all"
   ```
-  
 </div>
 
 <!-- Footer section -->
