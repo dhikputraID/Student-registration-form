@@ -89,7 +89,8 @@
   > -- In CMD
   - Press Windows + R
   - Type CMD
-  - Then type cd
+  - Then type cd C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin
+  ! (Disclaimer: Adjust the MySQL version to the one you are using, example "mysql-8.1.30-winx64")
   - Type "mysql -uroot" or "mysql -uroot -p" in the CMD
   - Then type the source code according to the "db_rpl.mysql"
   ```
