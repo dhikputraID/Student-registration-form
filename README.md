@@ -7,8 +7,8 @@
 <div>
   <h1>📥 Simple student registration system 1.0</h1>
   <p>
-    This Student Registration System was created as a learning project to practice PHP and MySQL, it allows users to submit and store student registration data through a simple registration form.
-    This repository is intended for educational purposes and serves as a hands-on project for learning how PHP and MySQL work together to build a basic web application.
+    This Student Registration System was created as a learning project to practice PHP and MySQL, it allows users to submit and store student registration data through a simple registration form, this repository is intended for educational purposes and serves as a hands-on project for learning how PHP and MySQL work together to build a basic web application.
+    
   </p>
 </div>
 
@@ -97,6 +97,7 @@
   - Then type the source code according to the "db_rpl.mysql"
   
   > -- In CMD
+
   - Press Windows + R
   - Type CMD
   - Then type cd C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin
@@ -105,6 +106,23 @@
   - Then type the source code according to the "db_rpl.mysql"
   ```
 
+  3. Open File Manager
+  ```Installation
+  - Create a folder according to the folder structure above. 
+  ```
+
+  4. Open Visual Studio Code
+  ```
+  - Open the project you have created
+  - Then code according to the source code provided
+  - After that, save your project
+  ```
+
+  5. Run the program
+  ```
+  - Open Chrome
+  - then type http://localhost/folder_name/
+  ```
 </div>
 
 <!-- Footer section -->
