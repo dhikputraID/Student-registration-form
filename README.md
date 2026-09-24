@@ -82,6 +82,7 @@
 
   1. Enable MySQL in Laragon 
   ```Installation
+  - Open laragon
   - Click "Start all"
   ```
 
@@ -100,17 +101,17 @@
   - Then type cd C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin
   ! (Disclaimer: Adjust the MySQL version to the one you are using, example "mysql-8.1.30-winx64")
   - Type "mysql -uroot" or "mysql -uroot -p" in the CMD
-  - Then type the source code according to the "db_rpl.mysql"
+  - After that type the source code according to the "db_rpl.mysql"
   ```
 
   3. Open File Manager
   ```Installation
-  - Create a folder according to the folder structure above. 
+  - Create a folder according to the folder structure above
   ```
 
   4. Open Visual Studio Code
   ```
-  - Open the project you have created
+  - Open the project folder that you have created
   - Then code according to the source code provided
   - After that, save your project
   ```
