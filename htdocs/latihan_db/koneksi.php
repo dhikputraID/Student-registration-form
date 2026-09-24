@@ -1,8 +1,8 @@
 <?php 
-    $host = "localhost"; ## default settings
-    $user = "root"; ## default settings
-    $pass = ""; ## add password if MySQL uses password
-    $db = "db_rpl"; ## type according to the database name you created previously
+    $host = "localhost";
+    $user = "root";
+    $pass = "";
+    $db = "db_rpl";
 
     $koneksi = mysqli_connect($host, $user, $pass, $db);
 ?>

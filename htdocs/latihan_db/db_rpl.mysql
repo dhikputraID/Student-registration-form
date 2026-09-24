@@ -1,6 +1,6 @@
-create database db_rpl; ## change db_rpl to your database name, example: db_school (optional)
+create database db_rpl;
 
-use db_rpl; ## use the database according to your database name
+use db_rpl;
 
 CREATE TABLE users ( id INT (11) AUTO_INCREMENT PRIMARY KEY, nama VARCHAR(100) NOT NULL, email VARCHAR(100) NOT NULL, jurusan VARCHAR(50) NOT NULL );
 
