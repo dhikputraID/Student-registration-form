@@ -7,8 +7,7 @@
 <div>
   <h1>📥 Simple student registration system 1.0</h1>
   <p>
-    This Student Registration System was created as a learning project to practice PHP and MySQL, it allows users to submit and store student registration data through a simple registration form, this repository is intended for educational purposes and serves as a hands-on project for learning how PHP and MySQL work together to build a basic web application.
-    
+    This Student Registration System was created as a learning project to practice PHP and MySQL, it allows users to submit and store student registration data through a simple registration form, this repository is intended for educational purposes and serves as a hands-on project for learning how PHP and MySQL work together to build a basic web application. 
   </p>
 </div>
 
@@ -65,15 +64,13 @@
   ├── assets/
   ├── folder_name/
   ├── koneksi.php
+  ├── register.php
+  ├── proses_register.php
   ├── login.php
-  └── proses.php
-
-  Folder_Name/
-  ├── assets/
-  ├── php/
-  ├── koneksi.php
-  ├── login.php
-  └── proses.php
+  ├── proses_login.php
+  ├── logout.php
+  ├── dashboard.php
+  └── etc.
   ```
 </div>
 
