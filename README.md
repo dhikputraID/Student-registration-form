@@ -137,6 +137,13 @@
 </div>
 
 ---
+
+<div> 
+  
+  > 🎖️ *"Thank you for reading this repo & don't be evil"*
+
+</div>
+
 <!-- 
 
 $$$$$$$\  $$\       $$\ $$\                             $$\                        
