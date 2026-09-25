@@ -57,24 +57,25 @@
 
 <div>
   <h2> > 📂 Folder Structure</h2>
-
-  ```Folder
-  Windows (C:)/
-  ├── laragon/
-  ├── www/
-  ├── project_name/
-  ├── assets/
-  │   └── (css, js, images, dst.)
-  ├── koneksi.php
-  ├── register.php
-  ├── proses_register.php
-  ├── login.php
-  ├── proses_login.php
-  ├── logout.php
-  ├── dashboard.php
-  ├── db_rpl.sql
-  └── ...
+  
   ```
+     Windows (C:)/
+     ├── laragon/
+     ├── www/
+     ├── project_name/
+     ├── assets/
+     │   └── (css, js, images, dst.)
+     ├── koneksi.php
+     ├── register.php
+     ├── proses_register.php
+     ├── login.php
+     ├── proses_login.php
+     ├── logout.php
+     ├── dashboard.php
+     ├── db_rpl.sql
+     └── ...
+   ```
+     
 </div>
 
 <!-- Installation -->
@@ -120,25 +121,33 @@
      SOURCE C:/laragon/www/Student-registration-form/Student-registration-form.sql;
      ```
      
-  5. Configuration
+  4. Configuration
+     
      Open connection.php and adjust the credentials to your local environment:
      ```
      <?php
       $host = "localhost";
       $user = "root";
-      $pass = "";           // sesuaikan jika MySQL kamu pakai password
-      $dbname = "student_registration_form";
+      $pass = "";           // Adjust if you use a password
+      $db = "db_rpl";
 
-      $conn = mysqli_connect($host, $user, $pass, $dbname);
-
-     if (!$conn) {
-       die("Koneksi gagal: " . mysqli_connect_error());
-      }
-    ?>
-    ```
+      $koneksi = mysqli_connect($host, $user, $pass, $db);   
+     ?>
+     ```
     
-  7. Open the project in Visual Studio Code
-  8. Run Program
+  5. Open the project in Visual Studio Code
+     ```
+     - Open VS Code
+     - Open folder C:\laragon\www\Student-registration-form\ in VS Code
+     - Check all configurations in Htdocs\Assets\koneksi.php
+     - Save changes if any
+     ```
+     
+  6. Run Program
+     ```
+     - Open the browser (chrome, etc.)
+     - Type in the url field http://localhost/Student-registration-form/Htdocs/Assets/
+     ```
 </div>
 
 <!-- Footer section -->
