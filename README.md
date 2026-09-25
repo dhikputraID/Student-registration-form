@@ -111,9 +111,34 @@
      - Press Windows + R, type CMD
      - cd C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin
        (Adjust the MySQL version with your version for example: mysql-3.4.6-winx64)
+     - Type mysql -uroot or mysql -uroot -p (if using a password)
+     ```
+     Once logged in run:
+     ```
+     CREATE DATABASE db_rpl;
+     USE db_rpl;
+     SOURCE C:/laragon/www/Student-registration-form/Student-registration-form.sql;
+     ```
+     
   5. Configuration
-  6. Open the project in Visual Studio Code
-  7. Run Program
+     Open connection.php and adjust the credentials to your local environment:
+     ```
+     <?php
+      $host = "localhost";
+      $user = "root";
+      $pass = "";           // sesuaikan jika MySQL kamu pakai password
+      $dbname = "student_registration_form";
+
+      $conn = mysqli_connect($host, $user, $pass, $dbname);
+
+     if (!$conn) {
+       die("Koneksi gagal: " . mysqli_connect_error());
+      }
+    ?>
+    ```
+    
+  7. Open the project in Visual Studio Code
+  8. Run Program
 </div>
 
 <!-- Footer section -->
