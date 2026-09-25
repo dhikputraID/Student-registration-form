@@ -81,58 +81,39 @@
 
 <div>
   <h2>📦 Installation</h2>
-
-  1. Clone or copy repo
-  ```Installaton
-  - git clone https://github.com/dhikputraID/db_rpl.git
-  ```
-  Then move the cloned folder to:
-  ```
-  - C:\laragon\www\Student-registration-form\
-  ```
-
-  2. Run Laragon
-  ```Installation
-  - Open laragon
-  - Click "Start all" (To enable Apache & Mysql)
-  ```
-
-  3. Create and import database
-  ```Install
-  > -- In Laragon
-
-  - Click the "terminal" menu in Laragon
-  - Type "mysql -uroot" or "mysql -uroot -p" (if you use a password)
-  - Then type the source code according to the "db_rpl.mysql"
   
-  > -- In CMD
+  1. Clone or copy Repo
+     ```
+     git clone https://github.com/dhikputraID/Student-registration-form.git
+     ```
+     Then move the cloned folder to:
+     ```
+     C:\laragon\www\Student-registration-form\
+     ```
+     
+  2. Run Laragon
+     ```
+     - Open Laragon
+     - click "start all" (to activate Apache & MySQL)
+     ```
+     
+  3. Create and import Database
 
-  - Press Windows + R
-  - Type CMD
-  - Then type cd C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin
-  ! (Disclaimer: Adjust the MySQL version to the one you are using, example "mysql-8.1.30-winx64")
-  - Type "mysql -uroot" or "mysql -uroot -p" in the CMD
-  - After that type the source code according to the "db_rpl.mysql"
-  ```
+     Open terminal via Laragon or CMD
+     ```
+     >-- Laragon
 
-  4. Create a folder 
-  ```Installation
-  - Open File Manager
-  - Create folders according to the *folder structure section* above.
-  ```
+     - Click the "terminal" menu in Laragon
+     - Type mysql -uroot or mysql -uroot -p (if using a password)
 
-  5. Open Visual Studio Code
-  ```
-  - Open the project folder that you have created
-  - Then code according to the source code provided
-  - After that, save your project
-  ```
+     >-- CMD
 
-  6. Run the program
-  ```
-  - Open Chrome
-  - then type http://localhost/folder_name/
-  ```
+     - Press Windows + R, type CMD
+     - cd C:\laragon\bin\mysql\mysql-8.4.3-winx64\bin
+       (Adjust the MySQL version with your version for example: mysql-3.4.6-winx64)
+  5. Configuration
+  6. Open the project in Visual Studio Code
+  7. Run Program
 </div>
 
 <!-- Footer section -->
@@ -159,7 +140,7 @@
 <!-- 
 
 $$$$$$$\  $$\       $$\ $$\                             $$\                        
-$$  __$$\ $$ |      \__|$$ |                            $$ |                       
+$$  __$$\ $$|      \__|$$ |                            $$ |                       
 $$ |  $$ |$$$$$$$\  $$\ $$ |  $$\  $$$$$$\  $$\   $$\ $$$$$$\    $$$$$$\  $$$$$$\  
 $$ |  $$ |$$  __$$\ $$ |$$ | $$  |$$  __$$\ $$ |  $$ |\_$$  _|  $$  __$$\ \____$$\ 
 $$ |  $$ |$$ |  $$ |$$ |$$$$$$  / $$ /  $$ |$$ |  $$ |  $$ |    $$ |  \__|$$$$$$$ |
