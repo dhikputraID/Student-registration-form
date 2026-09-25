@@ -62,7 +62,7 @@
      Windows (C:)/
      ├── laragon/
      ├── www/
-     ├── project_name/
+     ├── htdocs/           // change it if you think this folder name is not enough
      ├── assets/
      │   └── (css, js, images, dst.)
      ├── koneksi.php
