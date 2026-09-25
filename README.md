@@ -35,7 +35,9 @@
   <h2> > 💻 Tools</h2>
   
   * Visual Studio Code
-  * Laragon
+  * Laragon (PHP + Mysql + Apache)
+  * Git (optional, to clone repo)
+
 </div>
 <!-- Features -->
 
@@ -62,7 +64,7 @@
   ├── www/
   ├── project_name/
   ├── assets/
-  ├── folder_name/
+  │   └── (css, js, images, dst.)
   ├── koneksi.php
   ├── register.php
   ├── proses_register.php
@@ -70,7 +72,8 @@
   ├── proses_login.php
   ├── logout.php
   ├── dashboard.php
-  └── etc.
+  ├── db_rpl.sql
+  └── ...
   ```
 </div>
 
@@ -78,20 +81,28 @@
 
 <div>
   <h2>📦 Installation</h2>
-  <h3> > -- MySQL</h3>
 
-  1. Enable MySQL in Laragon 
-  ```Installation
-  - Open laragon
-  - Click "Start all"
+  1. Clone or copy repo
+  ```Installaton
+  - git clone https://github.com/dhikputraID/db_rpl.git
+  ```
+  Then move the cloned folder to:
+  ```
+  - C:\laragon\www\Student-registration-form\
   ```
 
-  2. Open terminal in Laragon or CMD
+  2. Run Laragon
   ```Installation
+  - Open laragon
+  - Click "Start all" (To enable Apache & Mysql)
+  ```
+
+  3. Create and import database
+  ```Install
   > -- In Laragon
 
-  - Click "Terminal"
-  - Type "mysql -uroot" or "mysql -uroot -p" in the terminal
+  - Click the "terminal" menu in Laragon
+  - Type "mysql -uroot" or "mysql -uroot -p" (if you use a password)
   - Then type the source code according to the "db_rpl.mysql"
   
   > -- In CMD
@@ -104,19 +115,20 @@
   - After that type the source code according to the "db_rpl.mysql"
   ```
 
-  3. Open File Manager
+  4. Create a folder 
   ```Installation
-  - Create a folder according to the folder structure above
+  - Open File Manager
+  - Create folders according to the *folder structure section* above.
   ```
 
-  4. Open Visual Studio Code
+  5. Open Visual Studio Code
   ```
   - Open the project folder that you have created
   - Then code according to the source code provided
   - After that, save your project
   ```
 
-  5. Run the program
+  6. Run the program
   ```
   - Open Chrome
   - then type http://localhost/folder_name/
