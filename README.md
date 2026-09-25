@@ -118,12 +118,12 @@
      ```
      CREATE DATABASE db_rpl;
      USE db_rpl;
-     SOURCE C:/laragon/www/Student-registration-form/Student-registration-form.sql;
+     SOURCE C:/laragon/www/Student-registration-form/htdocs/assets/db_rpl.sql;
      ```
      
   4. Configuration
      
-     Open connection.php and adjust the credentials to your local environment:
+     Open koneksi.php and adjust the credentials to your local environment:
      ```
      <?php
       $host = "localhost";
@@ -139,14 +139,14 @@
      ```
      - Open VS Code
      - Open folder C:\laragon\www\Student-registration-form\ in VS Code
-     - Check all configurations in Htdocs\Assets\koneksi.php
+     - Check all configurations in htdocs\assets\koneksi.php
      - Save changes if any
      ```
      
   6. Run Program
      ```
      - Open the browser (chrome, etc.)
-     - Type in the url field http://localhost/Student-registration-form/Htdocs/Assets/
+     - Type in the url field http://localhost/Student-registration-form/htdocs/assets/
      ```
 </div>
 
