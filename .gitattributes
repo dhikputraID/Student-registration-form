@@ -1,2 +1,4 @@
 *.php linguist-language=PHP
 *.sql linguist-language=SQL
+
+htdocs/version 1.0.0/
